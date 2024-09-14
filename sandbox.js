@@ -47,6 +47,14 @@ document.write("4 x 8 " + "= " + 32 + "<br>");
 document.write("4 x 9 " + "= " + 36 + "<br>");
 document.write("4 x 10 "+ "= " + 40 + "<br>");
 
+// TABLE OF 4
+
+let sum = 4;
+
+for (let i = 1; i < 11; i++) {
+    runi = sum * i;    
+    console.log(i + " x 4 = " + runi);
+}
 
 // CELCIUS TEMPERATURE
 
